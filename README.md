@@ -3,6 +3,11 @@ Block stream embedded ads on twitch.tv (chrome only)
 
 I can't be bothered to go through the process of uploading this to the chrome store. If someone wants do upload it for easier installing go head.
 
+# How does it work?
+
+- The extension redirects player.twitch.tv/js/player.js to redirect.js
+- redirect.js downloads the player.js as text and modifies the code to remove the ad parameters in the stream request. 
+
 # How to install manually
 
 - Download manifest.json / redirect.js and put them into their own folder.
