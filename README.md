@@ -6,7 +6,8 @@ I can't be bothered to go through the process of uploading this to the chrome st
 # How does it work?
 
 - The extension redirects player.twitch.tv/js/player.js to redirect.js
-- redirect.js downloads the player.js as text and modifies the code to remove the ad parameters in the stream request. 
+- redirect.js downloads the player.js as text and modifies the code to remove the ad parameters in the stream request.
+- The modified code is then loaded via "new Function(playerJs)();"
 
 # How to install manually
 
