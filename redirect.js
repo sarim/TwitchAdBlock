@@ -43,7 +43,7 @@ else
 		var sigIndex = url.search.indexOf('sig=');
 		if (sigIndex >= 0 && !oldUrl.includes("/vod/"))
 		{
-			newUrl = url.origin + url.pathname + '?' + url.search.substring(sigIndex);
+			newUrl = url.origin + url.pathname + "?allow_source=true&player_backend=mediaplayer&rtqos=control&" + url.search.substring(sigIndex);
 		}
 		
 		return newUrl;
