@@ -1,3 +1,5 @@
+NOTE: uBlockOrigin now uses this method of blocking ads. It is advisable to use uBlockOrigin instead. See https://github.com/uBlockOrigin/uAssets/pull/1971
+
 # TwitchAdBlock
 Block stream embedded ads on twitch.tv (chrome / firefox)
 
