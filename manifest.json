@@ -1,15 +1,11 @@
 {
 	"name": "TwitchAdBlock",
-	"version": "1.0",
+	"version": "1.1",
 	"description": "Blocks twitch ads.",
 	"background": {
-		"scripts": ["redirect.js"],
+		"scripts": ["background.js"],
 		"persistent": true
 	},
-	"web_accessible_resources": [
-		"redirect.js"
-	],
 	"manifest_version": 2,	
-	"permissions": ["webRequest", "webRequestBlocking", "*://*.twitch.tv/*"],
-	"update_url": "http://0.0.0.0"
+	"permissions": ["webRequest", "webRequestBlocking", "*://usher.ttvnw.net/*"]
 }
